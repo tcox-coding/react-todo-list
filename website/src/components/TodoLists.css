@@ -1,0 +1,23 @@
+#todo-lists-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-right: 1px solid black;
+  flex-direction: column;
+}
+
+#todo-lists {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#todo-lists-container > h1 {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px dotted black;
+  text-align: center;
+  text-decoration: solid underline;
+  /* width: 80%; */
+}

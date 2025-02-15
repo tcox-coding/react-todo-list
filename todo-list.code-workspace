@@ -1,0 +1,20 @@
+{
+	"folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "website"
+    },
+    {
+      "path": "api"
+    },
+    {
+      "path": "database"
+    },
+    {
+      "path": "database-populator"
+    }
+  ],
+  "settings": {}
+}

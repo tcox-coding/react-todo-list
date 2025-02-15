@@ -1,0 +1,8 @@
+services:
+  website:
+    image: node:23.8.0
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./dist:/app/dist
+    command: ["npm", "run", "start"]

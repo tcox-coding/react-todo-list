@@ -1,0 +1,11 @@
+services:
+  api:
+    image: python:3.13-bookworm
+  container_name: api
+  ports:
+    - "5000:5000"
+  volumes:
+    - .:/app
+  depends_on:
+    - database
+  entrypoint: ["bash", "start.sh"]
